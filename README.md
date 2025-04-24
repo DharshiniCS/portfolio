@@ -11,7 +11,7 @@ This is my personal portfolio website built as part of the GrowthLink internship
 2. Open `index.html` in any web browser
 
  🌐 Live Demo:
-👉 [Click here to view the site live](https://yourusername.github.io/portfolio)  
+👉 [Click here to view the site live](https://DharshiniCS.github.io/portfolio)  
 _(Replace the above link with your GitHub Pages URL)_
 
 
@@ -42,14 +42,14 @@ _(Replace the above link with your GitHub Pages URL)_
  1. Geo-Fencing Safety for Fishermen
    An Android app to prevent fishermen from crossing restricted maritime borders. Features include GPS tracking, emergency alerting, and real-time border notifications.  
    Tech Used: Kotlin, MySQL  
-  🔗 [View PPT](https://drive.google.com/your-link)
+  🔗 [View PPT](https://docs.google.com/presentation/d/1kYCAFY9rCIuVK11OUMkTsfuWdkiPWYVC/edit?usp=drive_link&ouid=106261059085669386567&rtpof=true&sd=true)
 
 
 
  2. Heart Disease Prediction System
    A hybrid deep learning project combining CNN and RNN models to predict heart disease based on X-ray and structured data input.  
    Tech Used: Python, TensorFlow, CNN, RNN  
-  🔗 [View Report](https://drive.google.com/your-link)
+  🔗 [View Report](https://docs.google.com/document/d/1IvwQELTWHUZMeFzHcdaVr_1YoR7A5fPq/edit?usp=drive_link&ouid=106261059085669386567&rtpof=true&sd=true)
 
 
 🧠 Learnings / Challenges
@@ -71,7 +71,7 @@ I'm Dharshini Priya M, a final-year Computer Science Engineering student at SRM 
 
   📧 Email: [ddharshini060@gmail.com](mailto:ddharshini060@gmail.com)
   🔗 LinkedIn: [Dharshini Priya M](https://linkedin.com/in/dharshini-priya-m-270344289)
-  💻 GitHub: [@yourusername](https://github.com/yourusername)
+  💻 GitHub: [@DharshiniCS](https://github.com/DharshiniCS)
 
 
 
