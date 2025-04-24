@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>Dharshini</span>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#project">Projects</a></div>
+        <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact Me</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero/Main Section -->
+  <section>
+    <div class="main-container">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+        <img src="main.png" alt="" />
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Dharshini Priya</span></h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span>Developer</span></div>
+        <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+          A passionate and detail-oriented Computer Science Engineering student from SRM TRP Engineering College. I enjoy building meaningful digital experiences through web and mobile applications. With a strong foundation in programming, problem-solving, and development principles, I'm eager to contribute and grow in tech-driven environments.
+        </p>
+        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+          <a href="https://github.com/DharshiniCS" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/dharshini-priya-m-270344289" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          
+        </div>
+        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+          <a href="Dharshini_Priya_Resume.pdf" download>
+            <button>Download CV</button>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="content" data-aos="fade-up" data-aos-duration="1000">
+      <h2>About Me</h2>
+      <p>
+        I'm Dharshini Priya M, a final-year Computer Science Engineering student at SRM TRP Engineering College with a strong passion for building user-centric digital experiences. I specialize in full-stack web development and Android app creation, and I've completed hands-on internships in both areas.
+      </p>
+      <p>
+        With a solid foundation in Object-Oriented Programming, C, and Python, I enjoy tackling real-world problems with code. My projects reflect my dedication to innovation — including a heart disease prediction system using deep learning, and a geo-fencing app for fishermen's safety.
+      </p>
+      <p>
+        I'm a strong believer in continuous learning, team collaboration, and using technology to make a positive impact. I'm currently seeking opportunities to apply my skills in a challenging and growth-oriented environment.
+      </p>
+    </div>
+  </section>
+  
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="content" data-aos="fade-right" data-aos-duration="1000">
+      <h2>Skills</h2>
+     <div class="skills-grid">
+       <div class="skill-item"><i class="fa-brands fa-html5"></i><span>HTML5/CSS3</span></div>
+       <div class="skill-item"><i class="fa-brands fa-js"></i><span>JavaScript/OOP</span></div>
+       <div class="skill-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+       <div class="skill-item"><i class="fa-solid fa-users"></i><span>Teamwork</span></div>
+       <div class="skill-item"><i class="fa-solid fa-lightbulb"></i><span>Problem Solving</span></div>
+     </div>
+    </div>
+ </section>
+  
+
+  <!-- Projects Section -->
+  <section id="project" class="projects-section">
+    <div class="content" data-aos="fade-left" data-aos-duration="1000">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+  
+        <!-- Project 1: Fishermen Safety App -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Geo-Fencing Safety for Fishermen</h3>
+          <p>
+            An Android application designed to enhance the safety of Indian fishermen by using GPS-based geo-fencing. It detects border crossings and sends real-time alerts to the fisherman and emergency contacts.
+          </p>
+          <ul>
+            <li><strong>Domain:</strong> Android Development</li>
+            <li><strong>Technologies:</strong> Kotlin, MySQL, GPS, Eclipse IDE</li>
+            <li><strong>Key Features:</strong> Border Alerts, Emergency Intimations, Location Tracking</li>
+          </ul>
+          <div class="project-links">
+            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="GeoFencing_Project_PPT.pptx" target="_blank">
+              <i class="fa-solid fa-eye"></i> View PPT
+            </a>
+            
+          </div>
+        </div>
+  
+      <!-- Project 2: Heart Disease Prediction System -->
+<div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+  <h3>Heart Disease Prediction System</h3>
+  <p>
+    A hybrid deep learning system that predicts heart disease using both medical images (X-rays/Echo) and structured clinical data (CSV). It integrates CNN and RNN models to analyze spatial and temporal patterns, enabling early and more accurate detection.
+  </p>
+  <ul>
+    <li><strong>Domain:</strong> Deep Learning in Healthcare</li>
+    <li><strong>Technologies:</strong> Python, CNN, RNN, TensorFlow, CSV, X-ray, Echocardiogram</li>
+    <li><strong>Key Features:</strong> Multi-modal input, High accuracy, Spatial-temporal analysis, Real-time support</li>
+  </ul>
+  <div class="project-links">
+    <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="heart_disease_prediction.docx" target="_blank">
+      <i class="fa-solid fa-eye"></i> View Report
+    </a>
+    
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="content" data-aos="fade-up" data-aos-duration="1000">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST" class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+  </script>
+  <script>
+    function hamburg() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(0px)";
+    }
+    function cancel() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(-500px)";
+    }
+  </script>
+</body>
+</html>
